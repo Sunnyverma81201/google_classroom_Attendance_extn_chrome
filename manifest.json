@@ -1,0 +1,13 @@
+{
+    "name": "G-meet scrapper",
+    "description": "Extension For Chrome to download text file of messages or attendies in chat in Google meet.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+      },
+    "permissions": [
+        "storage",
+        "activeTab"
+    ]
+}
