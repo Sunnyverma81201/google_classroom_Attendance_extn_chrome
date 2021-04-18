@@ -3,12 +3,15 @@
     "description": "Extension For Chrome to download text file of messages or attendies in chat in Google meet.",
     "version": "1.0",
     "manifest_version": 3,
+    "author":"@apoorvverma",
+
     "background": {
         "service_worker": "popup.js"
       },
     "permissions": [
         "storage",
-        "activeTab"
+        "activeTab",
+        "tabs"
     ],
     "action":{
         "default_popup": "popup.html"
